@@ -45,6 +45,8 @@ h1{
 }
 #aboutUs{
     padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 #galleryContainer{
     clear: both;
@@ -69,4 +71,58 @@ footer{
 iframe{
     border-radius: 30px;
     border: 2px solid;
+}
+@media screen and (max-width: 1000px){
+    #galleryContainer{
+        column-count: 4;
+    }
+}
+@media screen and (max-width: 730px){
+    #aboutUs{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 700px){
+    #galleryContainer{
+        column-count: 3;
+        column-gap: 10px;
+        padding: 10px;
+    }
+    #bigWoodNookImage{
+        width: 200px;
+    }
+    h1{
+        font-size: 200%;
+    }
+}
+@media screen and (max-width: 670px){
+    iframe{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 520px){
+    li{
+     margin-right: 20px;   
+    }
+}
+@media screen and (max-width: 450px){
+    #galleryContainer{
+        column-count: 2;
+        column-gap: 10px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    li{
+        font-size: small;
+        margin-right: 15px;
+    }
+    #homeHeader{
+        height: 40px;
+        line-height: 40px;
+    }
+    #bigWoodNookImage{
+        margin-top: 0px;
+    }
 }
