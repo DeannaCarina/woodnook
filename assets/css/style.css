@@ -103,9 +103,10 @@ iframe{
 }
 @media screen and (max-width: 550px){
     li{
-     margin-right: 20px;   
+        font-size: small;
+        margin-right: 15px;
     }
-}
+}    
 @media screen and (max-width: 450px){
     #galleryContainer{
         column-count: 2;
@@ -114,10 +115,7 @@ iframe{
     }
 }
 @media screen and (max-width: 400px){
-    li{
-        font-size: small;
-        margin-right: 15px;
-    }
+    
     #homeHeader{
         height: 40px;
         line-height: 40px;
